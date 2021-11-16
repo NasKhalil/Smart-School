@@ -99,7 +99,6 @@ nav {
 }
 
 #program {
-  width: fit-content;
   background-image: url('../media/dark-bg.jpg');
   background-size: cover;
   display: flex;
