@@ -16,7 +16,7 @@ Complete design of the index, about page designed using, Flexbox, and Position a
 - Git
 
 ## Live Demo
-[Live Demo Link](https://)
+[Live Demo Link](https://naskhalil.github.io/Smart-School)
 
 
 ## Video Description
