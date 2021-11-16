@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+header {
+  background: linear-gradient(110deg, rgba(204, 81, 68, 0.95) 50%, rgba(164, 190, 205, 0.3) 80%), url(../media/headline-bg.png) no-repeat;
+  background-size: cover;
+  background-position: top center;
+  height: 100vh;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.upper-nav {
+  background-color: #272a31;
+  display: none;
+}
+
+.logo {
+  font-family: 'Pacifico', cursive;
+  color: #fff;
+  font-size: 32px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.nav-items {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(82.7, 82.7, 82.7, 0.7);
+  backdrop-filter: blur(5px);
+  padding-top: 105px;
+  z-index: 2;
+  margin: 0;
+}
+
+nav {
+  top: 0;
+  left: 0;
+  padding: 16px 24px;
+}
+
+.hamburger-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.hamburger-btn i {
+  font-size: 30px;
+  color: #fff;
+}
+
+.close-btn {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.close-btn i {
+  font-size: 30px;
+  color: #fff;
+}
+
+.menu-item a {
+  padding: 10px;
+  color: #fff;
+  font-size: 32px;
+}
+
+.menu-item {
+  padding: 10px;
+}
+
+.headline {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  top: 10%;
+  color: #fff;
+}
+
+#program {
+  background-image: url('../media/dark-bg.jpg');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.proram-title {
+  color: #fff;
+}
+
+.course {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 12px;
+  padding: 8px;
+  background-color: rgba(185, 193, 197, 0.3);
+}
+
+.course-title {
+  color: #ec5242;
+}
+
+.course-description {
+  color: #fff;
+  font-size: 12px;
+}
+
+.c-logo {
+  width: 50px;
+}
+
+#instructors {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.instructors-card {
+  display: flex;
+  margin: 10px 16px;
+}
+
+.instructors-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.instructors-img {
+  background-image: url(/media/chessbard.png);
+  background-position: top left;
+  background-size: 60px;
+  background-repeat: no-repeat;
+}
+
+#inst-img {
+  height: 85px;
+  margin: 8px;
+  position: relative;
+  bottom: 0;
+}
+
+.instructors-name {
+  margin: 5px 0;
+}
+
+.instructors-role {
+  margin: 0;
+  color: #ec5242;
+  font-style: italic;
+}
+
+hr {
+  margin: 0;
+  width: 10%;
+  border: 1px solid #ec5242;
+}
+
+.instructors-description {
+  font-size: 12px;
+}
+
+.workshop-btn {
+  color: #fff;
+  background-color: #ec5242;
+  border: none;
+  padding: 16px 24px;
+  margin: 16px;
+  cursor: pointer;
+}
+
+.workshop-btn:hover {
+  background-color: #ee3e2a;
+}
+
+footer {
+  margin: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

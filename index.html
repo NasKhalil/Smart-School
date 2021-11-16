@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <script src="https://kit.fontawesome.com/8bbc53294e.js" crossorigin="anonymous"></script>
+    <title>Smart School</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="upper-nav">
+                <ul class="upper-nav-list">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#">English</a></li>
+                    <li><a href="#">My Page</a></li>
+                    <li><a href="#">Logout</a></li>
+                </ul>
+            </div>
+            <div class="nav-bar">
+                <button type="button" class="hamburger-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-items">
+                    <li>
+                        <a href="./index.html" class="logo">Smart School</a>
+                    </li>
+                    <li>
+                        <button type="button" class="close-btn">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </li>
+                    <li class="menu-item"><a href="./about.html">About</a></li>
+                    <li class="menu-item"><a href="#program">Courses</a></li>
+                    <li class="menu-item"><a href="#instructors">Instractors</a></li>
+                    <li class="menu-item"><a href="./about.html#sponsors">Sponsors</a></li>
+                </ul>
+            </div>
+        </nav>
+        <section class="headline">
+            <h1>
+                Now learning from anywhere, and build your bright career.
+            </h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos est mollitia quam. Quaerat atque ad ipsam voluptatem, quos explicabo odio.
+            </p>
+            <h2>
+                19.20.2021(FRI) ~ 20(SAT)
+            </h2>
+        </section>
+    </header>
+    <main>
+        <section id="program">
+            <h4 class="proram-title">Featured courses</h4>
+            <hr>
+            <div class="course">
+                <img class="c-logo" src="./media/React.svg" alt="react js logo">
+                <h3 class="course-title">
+                    React Js
+                </h3>
+                <p class="course-description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                </p>
+            </div>
+            <div class="course">
+                <img class="c-logo" src="./media/Angular.svg" alt="react js logo">
+                <h3 class="course-title">
+                    Angular Js
+                </h3>
+                <p class="course-description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                </p>
+            </div>
+            <div class="course">
+                <img class="c-logo" src="./media/Python.svg" alt="react js logo">
+                <h3 class="course-title">
+                    Python
+                </h3>
+                <p class="course-description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                </p>
+            </div>
+            <div class="course">
+                <img class="c-logo" src="./media/vue.svg" alt="react js logo">
+                <h3 class="course-title">
+                    Vue Js
+                </h3>
+                <p class="course-description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                </p>
+            </div>
+            <div class="course">
+                <img class="c-logo" src="./media/Azure.svg" alt="react js logo">
+                <h3 class="course-title">
+                    Micrsoft Azure
+                </h3>
+                <p class="course-description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                </p>
+            </div>
+            <button class="workshop-btn" type="button">
+                Workshop December 2021
+            </button>
+        </section>
+        <section id="instructors">
+            <h4 class="instructors-title">Featured courses</h4>
+            <hr>
+            <div id="instructors-list"></div>
+        </section>
+    </main>
+    <footer>
+        <hr>
+        <p>©2021 All rights reserved.</p>
+    </footer>
+    <script src="./js/script.js"></script>
+    <script src="./js/instructorsDynamic.js"></script>
+</body>
+</html>
