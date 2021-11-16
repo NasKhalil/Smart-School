@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  background:  linear-gradient(110deg, rgba(204, 81, 68, 0.95) 50%, rgba(164, 190, 205, 0.3) 80%), url(../media/headline-bg.png) no-repeat;
+  background: linear-gradient(110deg, rgba(204, 81, 68, 0.95) 50%, rgba(164, 190, 205, 0.3) 80%), url(../media/headline-bg.png) no-repeat;
   background-size: cover;
   background-position: top center;
   height: 100vh;
@@ -22,7 +22,7 @@ a {
 }
 
 .upper-nav {
-  background-color: #272A31;
+  background-color: #272a31;
   display: none;
 }
 
@@ -80,7 +80,7 @@ nav {
   color: #fff;
 }
 
-.menu-item a{
+.menu-item a {
   padding: 10px;
   color: #fff;
   font-size: 32px;
@@ -155,7 +155,6 @@ nav {
   background-position: top left;
   background-size: 60px;
   background-repeat: no-repeat;
-  height: fit-content;
 }
 
 #inst-img {
