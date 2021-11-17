@@ -7,11 +7,11 @@ Complete design of the index, about page designed using, Flexbox, and Position a
 
 ## Desktop version
 
-![screenshot](./media/desktop_v_screenshot)
+![screenshot](./media/desktop_v_screenshot.png)
 
 ## Mobile version
 
-![screenshot](./media/mobile_v_screenshot)
+![screenshot](./media/mobile_v_screenshot.png)
 
 ## Built With
 
