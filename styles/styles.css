@@ -284,7 +284,7 @@ footer {
   #program {
     padding: 30px 60px;
   }
-  
+
   .course-item {
     display: flex;
     margin: 24px 0;
@@ -321,7 +321,7 @@ footer {
     color: #fff;
     padding: 40px;
   }
-  
+
   .partners-list {
     padding: 0;
     display: flex;
@@ -329,13 +329,13 @@ footer {
     flex-wrap: wrap;
     margin-top: 60px;
   }
-  
+
   .partners-logo {
     margin: 18px;
     width: 6em;
     filter: grayscale(100);
   }
-  
+
   .partners-logo:hover {
     filter: grayscale(0);
   }
