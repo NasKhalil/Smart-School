@@ -6,6 +6,16 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+h1 {
+  background-image: url(../media/text-bg.jpg);
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 30px;
+  font-family: 'Steelfish Rg', 'helvetica neue', helvetica, arial, sans-serif;
+  font-weight: 800;
+}
+
 header {
   background: linear-gradient(110deg, rgba(204, 81, 68, 0.95) 50%, rgba(164, 190, 205, 0.3) 80%), url(../media/headline-bg.png) no-repeat;
   background-size: cover;
@@ -80,7 +90,7 @@ nav {
   color: #fff;
 }
 
-.menu-item a {
+.menu-item-link {
   padding: 10px;
   color: #fff;
   font-size: 32px;
