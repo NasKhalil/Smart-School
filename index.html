@@ -13,11 +13,11 @@
         <nav>
             <div class="upper-nav">
                 <ul class="upper-nav-list">
-                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="#">English</a></li>
-                    <li><a href="#">My Page</a></li>
-                    <li><a href="#">Logout</a></li>
+                    <li><a class="upper-nav-list-link" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a class="upper-nav-list-link" href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a class="upper-nav-list-link" href="#">English</a></li>
+                    <li><a class="upper-nav-list-link" href="#">My Page</a></li>
+                    <li><a class="upper-nav-list-link" href="#">Logout</a></li>
                 </ul>
             </div>
             <div class="nav-bar">
@@ -33,16 +33,21 @@
                             <i class="fas fa-times"></i>
                         </button>
                     </li>
-                    <li class="menu-item"><a href="./about.html">About</a></li>
-                    <li class="menu-item"><a href="#program">Courses</a></li>
-                    <li class="menu-item"><a href="#instructors">Instractors</a></li>
-                    <li class="menu-item"><a href="./about.html#sponsors">Sponsors</a></li>
+                    <li>
+                        <ul class="menu">
+                            <li class="menu-item"><a class="menu-item-link" href="./about.html">About</a></li>
+                            <li class="menu-item"><a class="menu-item-link" href="#program">Courses</a></li>
+                            <li class="menu-item"><a class="menu-item-link" href="#instructors">Instractors</a></li>
+                            <li class="menu-item"><a class="menu-item-link" href="./about.html#partners">Sponsors</a></li>
+                        </ul>
+                    </li>
+                    
                 </ul>
             </div>
         </nav>
         <section class="headline">
             <h1>
-                Now learning from anywhere, and build your bright career.
+                Now learning <br> from anywhere,<br> and build your bright career.
             </h1>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos est mollitia quam. Quaerat atque ad ipsam voluptatem, quos explicabo odio.
@@ -56,59 +61,75 @@
         <section id="program">
             <h4 class="proram-title">Featured courses</h4>
             <hr>
-            <div class="course">
-                <img class="c-logo" src="./media/React.svg" alt="react js logo">
-                <h3 class="course-title">
-                    React Js
-                </h3>
-                <p class="course-description">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                </p>
+            <div class="course-item">
+                <div class="course">
+                    <img class="c-logo" src="./media/React.svg" alt="react js logo">
+                    <h3 class="course-title">
+                        React Js
+                    </h3>
+                    <p class="course-description">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    </p>
+                </div>
+                <div class="course">
+                    <img class="c-logo" src="./media/Angular.svg" alt="react js logo">
+                    <h3 class="course-title">
+                        Angular Js
+                    </h3>
+                    <p class="course-description">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    </p>
+                </div>
+                <div class="course">
+                    <img class="c-logo" src="./media/Python.svg" alt="react js logo">
+                    <h3 class="course-title">
+                        Python
+                    </h3>
+                    <p class="course-description">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    </p>
+                </div>
+                <div class="course">
+                    <img class="c-logo" src="./media/vue.svg" alt="react js logo">
+                    <h3 class="course-title">
+                        Vue Js
+                    </h3>
+                    <p class="course-description">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    </p>
+                </div>
+                <div class="course">
+                    <img class="c-logo" src="./media/Azure.svg" alt="react js logo">
+                    <h3 class="course-title">
+                        Micrsoft Azure
+                    </h3>
+                    <p class="course-description">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    </p>
+                </div>
             </div>
-            <div class="course">
-                <img class="c-logo" src="./media/Angular.svg" alt="react js logo">
-                <h3 class="course-title">
-                    Angular Js
-                </h3>
-                <p class="course-description">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                </p>
-            </div>
-            <div class="course">
-                <img class="c-logo" src="./media/Python.svg" alt="react js logo">
-                <h3 class="course-title">
-                    Python
-                </h3>
-                <p class="course-description">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                </p>
-            </div>
-            <div class="course">
-                <img class="c-logo" src="./media/vue.svg" alt="react js logo">
-                <h3 class="course-title">
-                    Vue Js
-                </h3>
-                <p class="course-description">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                </p>
-            </div>
-            <div class="course">
-                <img class="c-logo" src="./media/Azure.svg" alt="react js logo">
-                <h3 class="course-title">
-                    Micrsoft Azure
-                </h3>
-                <p class="course-description">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                </p>
-            </div>
+            
             <button class="workshop-btn" type="button">
                 Workshop December 2021
             </button>
         </section>
         <section id="instructors">
-            <h4 class="instructors-title">Featured courses</h4>
+            <h4 class="instructors-title">Featured instructors</h4>
             <hr>
             <div id="instructors-list"></div>
+        </section>
+        <section id="partners">
+            <h4>
+                Partner
+            </h4>
+            <hr>
+            <ul class="partners-list">
+                <li><img class="partners-logo" src="./media/googlelogo.png" alt="google logo"></li>
+                <li><img class="partners-logo" src="./media/airbnblogo.png" alt="airbnb logo"></li>
+                <li><img class="partners-logo" src="./media/logo-microsoft.png" alt=" microsoft logo"></li>
+                <li><img class="partners-logo" src="./media/logo-aws.png" alt="aws logo"></li>
+                <li><img class="partners-logo" src="./media/nvidia-logo.png" alt="nvidia logo"></li>
+            </ul>
         </section>
     </main>
     <footer>

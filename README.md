@@ -1,12 +1,17 @@
 # Smart-School
 
 > This project is my HTML & CSS Capstone Project in Microverse.
-The project is a complete design on the DEF CON Uyo Conference page (Fictional). A design prototype from Cindy Shin [CC Global Summit 2015](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
+A design prototype from Cindy Shin [CC Global Summit 2015](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
 
 Complete design of the index, about page designed using, Flexbox, and Position alongside with other CSS concepts.
 
+## Desktop version
 
-![screenshot](./media/...)
+![screenshot](./media/desktop_v_screenshot.png)
+
+## Mobile version
+
+![screenshot](./media/mobile_v_screenshot.png)
 
 ## Built With
 
@@ -20,7 +25,7 @@ Complete design of the index, about page designed using, Flexbox, and Position a
 
 
 ## Video Description
-[Video Description](https://www.loom.com/)
+[Video Description](https://www.loom.com/share/fc18258ba28948b3a99bbc4408dfcddc)
 
 ## Getting Started
 
@@ -42,7 +47,21 @@ $ git clone https://github.com/NasKhalil/Smart-School.git
 - Twitter: [@KhalilNasri92](https://twitter.com/KhalilNasri92)
 - Linkedin: [Khalil](https://www.linkedin.com/in/nasri-khalil-androdev/)
 
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
 ## Acknowledgments
 
 - UI Design Credits goes to [Cindy Shin - CC Global Summit 2015](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 - Project inspired by Microverse Program
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.

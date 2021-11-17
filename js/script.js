@@ -2,6 +2,7 @@ const btnOpen = document.querySelector('.hamburger-btn');
 const btnClose = document.querySelector('.close-btn');
 const menu = document.querySelector('.nav-items');
 const menuItem = document.querySelectorAll('.menu-item');
+const screenWidth = window.screen.width;
 
 function openMenu() {
   btnOpen.style.display = 'none';
@@ -16,5 +17,7 @@ function closeMenu() {
 btnOpen.addEventListener('click', openMenu);
 btnClose.addEventListener('click', closeMenu);
 menuItem.forEach((item) => {
-  item.addEventListener('click', closeMenu);
+  if (screenWidth < 768) {
+    item.addEventListener('click', closeMenu);
+  }
 });

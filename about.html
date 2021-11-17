@@ -12,12 +12,12 @@
     <header>
         <nav>
             <div class="upper-nav">
-                <ul>
-                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="#">English</a></li>
-                    <li><a href="#">My Page</a></li>
-                    <li><a href="#">Logout</a></li>
+                <ul class="upper-nav-list">
+                    <li><a class="upper-nav-list-link" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a class="upper-nav-list-link" href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a class="upper-nav-list-link" href="#">English</a></li>
+                    <li><a class="upper-nav-list-link" href="#">My Page</a></li>
+                    <li><a class="upper-nav-list-link" href="#">Logout</a></li>
                 </ul>
             </div>
             <div class="nav-bar">
@@ -33,18 +33,25 @@
                             <i class="fas fa-times"></i>
                         </button>
                     </li>
-                    <li class="menu-item"><a href="./about.html">About</a></li>
-                    <li class="menu-item"><a href="./index.html#program">Courses</a></li>
-                    <li class="menu-item"><a href="./index.html#instructors">Instractors</a></li>
-                    <li class="menu-item"><a href="./about.html">Sponsors</a></li>
+                    <li>
+                        <ul class="menu">
+                            <li class="menu-item"><a class="menu-item-link" href="./about.html">About</a></li>
+                            <li class="menu-item"><a class="menu-item-link" href="./index.html#program">Courses</a></li>
+                            <li class="menu-item"><a class="menu-item-link" href="./index.html#instructors">Instractors</a></li>
+                            <li class="menu-item"><a class="menu-item-link" href="#partners">Sponsors</a></li>
+                        </ul>
+                    </li>
+                    
                 </ul>
             </div>
+        </nav>
             <section class="headline">
                 <h1>
-                    Now learning from anywhere, and build your bright career.
+                    Now learning from anywhere,<br> and build your bright career.
                 </h1>
                 <p class="headline-description">
                     Whether you want to learn or to share what you know, you’ve come to the right place. As a global destination for online learning, we connect people through knowledge.
+                    Smart School partners with more than 10 leading universities and companies to bring flexible, affordable, job-relevant online learning to individuals and organizations worldwide. We offer a range of learning opportunities—from hands-on projects and courses to job-ready certificates and degree programs.
                 </p>
                 <p class="headline-contact">
                     please contact us per Email for any further questions about workshops 2021!
@@ -53,7 +60,6 @@
                     workshops2021@smartschool.org
                 </h4>
             </section>
-        </nav>
     </header>
     <main>
         <section class="workshops">
@@ -83,7 +89,7 @@
                 </div>
             </div>
         </section>
-        <section class="partners">
+        <section id="partners">
             <h4>
                 Partner
             </h4>
@@ -98,7 +104,8 @@
         </section>
     </main>
     <footer>
-        
+        <hr>
+        <p>©2021 All rights reserved.</p>
     </footer>
     <script src="./js/script.js"></script>
 </body>

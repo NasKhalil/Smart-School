@@ -6,6 +6,16 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+h1 {
+  background-image: url(../media/text-bg.jpg);
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 30px;
+  font-family: 'Steelfish Rg', 'helvetica neue', helvetica, arial, sans-serif;
+  font-weight: 800;
+}
+
 header {
   background: linear-gradient(110deg, rgba(204, 81, 68, 0.95) 50%, rgba(164, 190, 205, 0.3) 80%), url(../media/headline-bg.png) no-repeat;
   background-size: cover;
@@ -80,7 +90,7 @@ nav {
   color: #fff;
 }
 
-.menu-item a {
+.menu-item-link {
   padding: 10px;
   color: #fff;
   font-size: 32px;
@@ -93,7 +103,7 @@ nav {
 .headline {
   position: relative;
   width: 80%;
-  margin: 6em auto;
+  margin: auto;
   color: #fff;
   text-align: center;
 }
@@ -105,10 +115,6 @@ nav {
   font-size: 13px;
   border-radius: 8px;
   margin-top: 3em;
-}
-
-.headline-contact {
-  margin-top: 4em;
 }
 
 .headline-email {
@@ -213,7 +219,7 @@ hr {
   margin: 16px 24px;
 }
 
-.partners {
+#partners {
   background-color: #272a31;
   display: flex;
   flex-direction: column;
@@ -236,4 +242,172 @@ hr {
 
 .partners-logo:hover {
   filter: grayscale(0);
+}
+
+footer {
+  margin: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  nav {
+    padding: 0;
+  }
+
+  .logo {
+    color: #272a31;
+    position: static;
+    left: 30px;
+    z-index: 1;
+  }
+
+  .menu {
+    display: flex;
+  }
+
+  .upper-nav {
+    background-color: #272a31;
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+  }
+
+  .upper-nav-list {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    margin-right: 110px;
+  }
+
+  .upper-nav-list-link {
+    color: #fff;
+    font-size: 12px;
+  }
+
+  .hamburger-btn {
+    display: none;
+  }
+
+  .close-btn {
+    display: none;
+  }
+
+  .nav-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: static;
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    padding-top: 0;
+    padding-left: 0;
+    margin-right: 60px;
+  }
+
+  .menu-item-link {
+    color: #272a31;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .nav-bar {
+    background-color: #fff;
+  }
+
+  h1 {
+    background-image: url(../media/text-bg.jpg);
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    font-family: 'Steelfish Rg', 'helvetica neue', helvetica, arial, sans-serif;
+    font-weight: 800;
+    margin: 0;
+  }
+
+  .headline {
+    margin-top: 6em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: static;
+  }
+
+  .headline-description {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .headline-contact {
+    margin: 0;
+  }
+
+  #program {
+    padding: 30px 60px;
+  }
+
+  .course-item {
+    display: flex;
+    margin: 24px 0;
+  }
+
+  .course {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin: 8px;
+    padding: 8px;
+  }
+
+  .course-description {
+    text-align: center;
+  }
+
+  #instructors-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .instructors-card {
+    width: 400px;
+  }
+
+  #partners {
+    background-color: #272a31;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    padding: 40px;
+  }
+
+  .partners-list {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 60px;
+  }
+
+  .partners-logo {
+    margin: 18px;
+    width: 6em;
+    filter: grayscale(100);
+  }
+
+  .partners-logo:hover {
+    filter: grayscale(0);
+  }
+
+  .workshops-items {
+    display: flex;
+    gap: 18px;
+    margin: 34px;
+  }
 }
