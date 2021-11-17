@@ -235,7 +235,7 @@ footer {
     margin-right: 110px;
   }
 
-  .upper-nav-list li a {
+  .upper-nav-list-link {
     color: #fff;
     font-size: 12px;
   }
@@ -261,7 +261,7 @@ footer {
     margin-right: 60px;
   }
 
-  .menu-item a {
+  .menu-item-link {
     color: #272a31;
     font-size: 12px;
     font-weight: 500;
