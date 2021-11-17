@@ -103,7 +103,7 @@ nav {
 .headline {
   position: relative;
   width: 80%;
-  margin: 6em auto;
+  margin: auto;
   color: #fff;
   text-align: center;
 }
@@ -115,10 +115,6 @@ nav {
   font-size: 13px;
   border-radius: 8px;
   margin-top: 3em;
-}
-
-.headline-contact {
-  margin-top: 4em;
 }
 
 .headline-email {
@@ -334,6 +330,7 @@ footer {
   }
 
   .headline {
+    margin-top: 6em;
     display: flex;
     flex-direction: column;
     align-items: center;
