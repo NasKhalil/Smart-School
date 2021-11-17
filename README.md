@@ -1,12 +1,17 @@
 # Smart-School
 
 > This project is my HTML & CSS Capstone Project in Microverse.
-The project is a complete design on the DEF CON Uyo Conference page (Fictional). A design prototype from Cindy Shin [CC Global Summit 2015](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
+A design prototype from Cindy Shin [CC Global Summit 2015](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
 
 Complete design of the index, about page designed using, Flexbox, and Position alongside with other CSS concepts.
 
+## Desktop version
 
-![screenshot](./media/...)
+![screenshot](./media/desktop_v_screenshot)
+
+## Mobile version
+
+![screenshot](./media/mobile_v_screenshot)
 
 ## Built With
 
