@@ -2,7 +2,6 @@
 
 > This project is my HTML & CSS Capstone Project in Microverse.
 A design prototype from Cindy Shin [CC Global Summit 2015](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
-
 Complete design of the index, about page designed using, Flexbox, and Position alongside with other CSS concepts.
 
 ## Desktop version
